@@ -7,3 +7,10 @@
 <h2> Mood Board </h2>
 <p> For my website I wanted to have an overarching theme between my contact page, my portfolio page, and my main home screen. As projects differenciate when show cased, I envisioned my theme to stay as consistent as possible. </p>
 
+## Screen Shots of Completed Work
+![updated-webpage](assets/images/toppageshot.png)
+![updated-webpage](assets/images/bottompageshot.png)
+
+## Link to deployed application
+https://sawi4644.github.io/homework-1/
+
