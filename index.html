@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+     <!-- reset CSS file -->
+     <link rel="stylesheet" type="text/css" href="assets/reset.css" />
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+     <!-- Index CSS Master file -->
+     <link rel="stylesheet" href="Assets/style.css" />
+     
+    <title>Welcome to my Page</title>
 </head>
 <body>
+    <!-- Header of my page-->
+    <header class="navbar navbar-expand-lg navbar-light bg-white site-header sticky-top py-1">
+        <div class="container">
+            <a class="navbar-brand-expand-lg" href="index.html">
+                <img src="Assets/Images/nameLogoSmall.jpg" id="logo" width="100" height="100" alt="logo">
+            </a>
+            <!--nav bar links -->
+            <nav>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About |<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <!-- About me section -->
+
+    <div class="center  text-center bg-white clip-me-2" height=250px id="iconBlock">
+        <!-- <div class="col-md-5 p-lg-5 mx-auto my-1"> -->
+        <!-- <h1 class="display-6 font-weight-normal"> -->
+            <img src="Assets/Images/nameIconLarge.jpg" id="icon" class="center" height=300px alt="logo"></h1>
+        <!-- <p class="lead font-weight-normal">Coding Enthusiast</p> -->
+        <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+
+    </div>
+</main>
+    
+
+    <!--footer-->
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            Copyright &copy; Sara Wilson
+        </div>
+    </footer>
     
 </body>
 </html>
