@@ -10,7 +10,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: black;
-    background: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+    background: url("../Assets/images/hike.jpg");
 }
 
 h2 {
@@ -25,6 +25,23 @@ h2 {
     
     
   }
+
+}
+#portfolio {
+ margin-bottom: 48px;
+  
+}
+#wilson-logo{
+color: white;
+background-color: darkgray; opacity: 90%; */ 
+border-color: darkgray; 
+padding: 20px;
+font-family: serif;
+font-weight: 200;
+font-size: 20pt;
+text-align: center;
+border-radius: .1rem;
+}
 
 .navbar-toggler-icon {
     display: inline-block;
