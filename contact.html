@@ -18,32 +18,66 @@
     <body>
     <!-- nav bar -->
         <header class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container">
-                <a class="navbar-brand-expand-lg" href="index.html">
-                    <img src="Assets/Images/nameLogoSmall.jpg" id="logo" width="100" height="100" alt="logo">
-                </a>
+                <div class="container">
+                    <a class="navbar-brand-expand-lg" href="index.html">
+                        <img src="Assets/Images/nameLogoSmall.jpg" id="logo" width="100" height="100" alt="logo">
+                    </a>
             <!--nav bar links -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"></li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio |</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
+                    <button class="navbar-toggler" type="button"            data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" a       ria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio |</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- contact form -->
+    <main role="main" class="container mt-5" id="contact">
+        <div class="card">
+            <div class="card-body">
+                <div class="container-fluid">
+                    <h2 class="card-title">Contact</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Name:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </header>
-</body>
+    </main>
+   
+                    <!--footer-->
+                    
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            Copyright &copy; Sara Wilson
+        </div>
+    </footer>
+   </body>
 </html>
 
 
