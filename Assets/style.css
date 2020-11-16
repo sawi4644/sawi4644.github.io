@@ -1,3 +1,30 @@
+* { box-sizing: border-box;} 
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    background: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+}
+
+h2 {
+    color: black;
+  }
+  
+  .container {
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    
+    
+  }
 
 .navbar-toggler-icon {
     display: inline-block;
