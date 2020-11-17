@@ -8,8 +8,8 @@
 <p> For my website I wanted to have an overarching theme between my contact page, my portfolio page, and my main home screen. As projects differenciate when show cased, I envisioned my theme to stay as consistent as possible. </p>
 
 ## Screen Shots of Completed Work
-![updated-webpage]("assets/images/aboutme.png")
-![updated-webpage]("assets/images/contactpage.png")
+![updated-webpage](Assets/images/aboutme.png)
+![updated-webpage](Assets/images/contactpage.png)
 
 ## Link to deployed application
 https://sawi4644.github.io
