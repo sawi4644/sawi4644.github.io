@@ -66,3 +66,6 @@ footer{
     font-size: medium;
     border-top: 7px solid gray;
   }
+  .card-img{
+    padding: 10px;
+  }
