@@ -26,22 +26,11 @@ h2 {
     
   }
 
-}
+
 #portfolio {
  margin-bottom: 48px;
   
 }
-/* #wilson-logo{
-color: white;
-background-color: darkgray; opacity: 90%; */ 
-/* border-color: darkgray;  */
-/* padding: 20px;
-font-family: serif;
-font-weight: 200;
-font-size: 20pt;
-text-align: center;
-border-radius: .1rem;
-} */ 
 
 .navbar {
     border-bottom: 0px solid white;
@@ -65,7 +54,9 @@ footer{
     padding: 20px;
     font-size: medium;
     border-top: 7px solid gray;
+    position: fixed;
   }
   .card-img{
     padding: 10px;
   }
+  
