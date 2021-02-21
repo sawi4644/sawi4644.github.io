@@ -5,95 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- reset CSS file -->
-    <link rel="stylesheet" type="text/css" href="assets/reset.css" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <!-- Index CSS Master file -->
-    <link rel="stylesheet" href="Assets/style.css" />
+    <link rel="stylesheet" href="Assets/style1.css" />
 
-    <title>Welcome to my Page</title>
+    <!--foundation css cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+    <!--  icons and typography -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+    <title>Welcome to my page!</title>
 </head>
 
 <body>
-    <!-- Header of my page-->
-    <header class="navbar navbar-expand-lg navbar-light bg-white site-header sticky-top py-1">
-        <div class="container">
-            <a class="navbar-brand-expand-lg" href="index.html">
-                <img src="Assets/images/wilson-logo.png" id="gif logo" width="200px" height="200px" alt="logo">
-            </a>
-            <!--nav bar links -->
-            <nav>
-                <button class="navbar-toggler" type="button" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About |<span class="sr-only">current</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio |</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-    </header>
+    <header class="portfolio-hero-header">
+        <img class="portfolio-hero-header-logo" src="./Assets/images/paid.gif"/>
+        <h1 class="portfolio-hero-header-h1">Sara Wilson</h1>
     
-    <h2 class="header center" style="text-align:center;">About Me</h2>
-
+        <ul class="portfolio-hero-header-menu">
+          <li><a class="button" href="#">About Me</a></li>
+          <li><a class="button" href="#">Work</a></li>
+          <li><a class="button" href="contact.html">Contact</a></li>
+        </ul>
+      </header>
+      
+    <!-- header hero image -->
+    <!-- <div class="hero-section">
     </div>
-
-    <div class="container" id="main">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-4">
-
-                    <div class="card profCard mb-5">
-                        <img src="Assets/images/seniorphoto.jpeg" class="card-img-center" class="align-self-start mr-3"
-                            height=250px alt="Portrait of Sara Wilson">
-                    </div>
-                </div>
-                <div class="media-body">
-                    <p class="mt-0" style="text-align:center;">I'm Sara Wilson -
-                        I graduated with a Bachelor's degree in advertising from the University of Colorado Boulder. I
-                        minored in technology, arts and media.
-                        <br />
-                        <br />
-                        Currently, I am searching for jobs within the tech industry or digital advertising. I am
-                        enrolled in the University of Northwestern Coding Bootcamp to enhance my technical skill set
-                        with web development.
-                        <br />
-                        <br />
-                        With the coding boot camp certification, I will be certified as a UX/UI web developer. For now,
-                        take a look at my webpage, portfolio, LinkedIn, and coming soon projects!
-                        <br />
-                    </p>
-
-                    <div class="about-btn-wrap d-flex justify-content-center">
-
-                        <a href="https://github.com/sawi4644" target="_blank" class="btn btn-dark">GitHub</a>
-                        <a href="Assets/Fall Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
-                        <a href="https://www.linkedin.com/in/sarawilson1292/" target="_blank"
-                            class="btn btn-dark">LinkedIn</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    </main>
-    <!--footer-->
-    <footer class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            Copyright &copy; Sara Wilson
-        </div>
-    </footer>
+    </div> -->
 </body>
 
 </html>
