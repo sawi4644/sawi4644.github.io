@@ -9,21 +9,18 @@ body {
     position: relative;
     font-size: 18px;
     line-height: 25px;
-    color: black;
-    background: url("../Assets/images/hike.jpg");
+    background-color: #ADD1D9;
 }
 
 h2 {
     color: black;
   }
   
-  .container {
+.container {
     width:100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-    
-    
   }
 
 
