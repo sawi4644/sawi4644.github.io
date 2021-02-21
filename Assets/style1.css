@@ -32,27 +32,6 @@
     margin: 0;
 }
 
-.portfolio-hero-header-description li {
-    /* -webkit-flex: 1 0 200px; */
-    -ms-flex: 1 0 200px;
-    flex: 1 0 200px;
-    text-align: center;
-    padding: 1.25rem;
-    position: relative;
-    white-space: nowrap;
-    color:white;
-}
-
-.portfolio-hero-header-description li:before {
-    content: "*";
-    position: absolute;
-    left: 0;
-    top: 5px;
-}
-
-.portfolio-hero-header-description li:first-child:before {
-    content: "";
-}
 
 .portfolio-hero-header-menu {
     list-style-type: none;

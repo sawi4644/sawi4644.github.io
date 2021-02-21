@@ -59,4 +59,7 @@ footer{
   .card-img{
     padding: 10px;
   }
-  
+  .card-body{
+    position: relative;
+  }
+
