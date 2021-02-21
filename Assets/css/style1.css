@@ -1,5 +1,7 @@
 /* Nav Bar CSS*/
-
+header {
+    font-family: 'Shippori Mincho', serif;
+}
 .portfolio-hero-header {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -10,7 +12,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url(./images/moon.jpg);
+    background-image: url(../images/3moon.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,6 +21,7 @@
     padding: 0;
     padding: 2rem 0;
     color: whitesmoke;
+    font-family: 'Shippori Mincho', serif;
 }
 
 .portfolio-hero-header-description {
@@ -53,6 +56,13 @@
     padding-left: 1.875rem;
     padding-right: 1.875rem;
 }
-.button{
+a.button{
+    color: white;
+    border: 2px solid white; 
+    background-color: black;
+    border-radius: 4px;
+    font-family:'Shippori Mincho', serif;
+}
+body{
     background-color: black;
 }
