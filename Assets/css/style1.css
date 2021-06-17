@@ -1,68 +1,67 @@
 /* Nav Bar CSS*/
 header {
-    font-family: 'Shippori Mincho', serif;
+  font-family: "Shippori Mincho", serif;
 }
 .portfolio-hero-header {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-image: url(../images/3moon.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    margin: auto;
-    padding: 0;
-    padding: 2rem 0;
-    color: whitesmoke;
-    font-family: 'Shippori Mincho', serif;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* background-image: url(../images/3moon.jpg); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  padding: 2rem 0;
+  color: whitesmoke;
+  font-family: "Shippori Mincho", serif;
 }
 
 .portfolio-hero-header-description {
-    list-style-type: none;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0;
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
 }
 
-
 .portfolio-hero-header-menu {
-    list-style-type: none;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0;
-    color: white;
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  color: white;
 }
 
 .portfolio-hero-header-menu li {
-    margin: 1.25rem;
+  margin: 1.25rem;
 }
 
 .portfolio-hero-header-menu li a {
-    padding-left: 1.875rem;
-    padding-right: 1.875rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
 }
-a.button{
-    color: white;
-    border: 2px solid white; 
-    background-color: black;
-    border-radius: 4px;
-    font-family:'Shippori Mincho', serif;
+a.button {
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 4px;
+  font-family: "Shippori Mincho", serif;
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
 }

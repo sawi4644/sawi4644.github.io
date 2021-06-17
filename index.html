@@ -5,35 +5,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- reset CSS file -->
+  <link rel="stylesheet" type="text/css" href="assets/reset.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
   <!-- Index CSS Master file -->
-  <link rel="stylesheet" href="Assets/css/style1.css" />
+  <link rel="stylesheet" href="Assets/css/style.css" />
 
-  <!--foundation css cdn link-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
-    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
-
-  <!--  icons and typography -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">  
-
-  <title>Welcome to my page!</title>
-
+  <title>Welcome to my Page</title>
 </head>
 
 <body>
-  <header class="portfolio-hero-header">
-    <img class="portfolio-hero-header-logo" src="./Assets/images/paid.gif" height="500px" width="400px"/>
-    <h1 class="portfolio-hero-header-h1"> Sara Wilson</h1>
-
-    <ul class="portfolio-hero-header-menu">
-      <li><a class="button" href="aboutme.html">About Me</a></li>
-      <li><a class="button" href="portfolio.html">Portfolio</a></li>
-      <li><a class="button" href="contact.html">Contact</a></li>
-    </ul>
+  <!-- Header of my page-->
+  <header class="navbar navbar-expand-lg navbar-light bg-white site-header sticky-top py-1">
+    <div class="container">
+      <a class="navbar-brand-expand-lg" href="index.html">
+        <img src="Assets/images/wilson-logo.png" id="gif logo" width="200px" height="200px" alt="logo">
+      </a>
+      <!--nav bar links -->
+      <nav>
+        <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home |<span class="sr-only">current</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
   </header>
-  <!-- image found on unsplash.com-->
-  <img src="Assets/images/3moon.jpg">
+
+  <h2 class="header center" id="top"> Sara Wilson | Web Developer</h2>
+
+  </div>
+
+  <div class="container" id="main">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-4">
+          <div class="card profCard mb-5">
+            <img src="Assets/images/cmci_head.jpg" class="card-img-center" class="align-self-start mr-3" height=350px
+              style='position: float;' alt="Portrait of Sara Wilson">
+          </div>
+        </div>
+        <div class='education'>
+          <h2>Education</h2>
+          <p>Recent Certification from Northwestern University in Web Development. Attended 6 month boot camp. I also
+            have
+            recieved a bachelor's degree in advertising with a minor in technology, arts, and media
+            from the University of Colorado Boulder. </p>
+        </div>
+        <div class='correlation'>
+          <h2>What makes me unique?</h2>
+          <p>The combination of my passions and my personailty play the biggest factors in answering this question. The
+            experience and knowledge of technology, code, and digital media all come together in one cohesive creative
+            harmony. I find excitment knowing there are ways I can be a triple threat. </p>
+
+          <p>Some of these cohesive understandings for example are the way a consumer thinks, and then being able to
+            study
+            their shopping or online patterns, create a consumer pathway and then actually assist in the development of
+            the product that will either assist in a companies business endevours or be the final product that excites a
+            consumer. </p>
+          <p>
+            Not only do I feel like I can get inside the head of a consumer and appeal to them both visually and
+            methodically. I also have my background in Account Management. I can play a strong role in being a
+            trustworthy liason between the client and the development team. I have exerpience in making timelines and
+            ensuring those projects meet the deadlines that are necessaary.
+          </p>
+          <p>
+            I could go on forever... check out my portfolio and resume. Please feel free to connect, let's build
+            something together.
+          </p>
+        </div>
+
+        <div class="about-btn-wrap d-flex justify-content-center">
+
+          <a href="https://github.com/sawi4644" target="_blank" class="btn btn-dark">GitHub</a>
+          <!-- old resume -->
+          <!-- <a href="Assets/Fall Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a> -->
+          <a href="Assets/resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+          <a href="https://www.linkedin.com/in/sarawilson1292/" target="_blank" class="btn btn-dark">LinkedIn</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </main>
+  <!--footer-->
+  <footer class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      Copyright &copy; Sara Wilson
+    </div>
+  </footer>
 </body>
+<script src="./Assets/javascript/index.js"></script>
 
 </html>

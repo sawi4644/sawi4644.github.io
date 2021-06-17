@@ -1,67 +1,73 @@
-* { box-sizing: border-box;} 
-
-body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100vh !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: #ADD1D9;
+* {
+  box-sizing: border-box;
 }
 
-#top{
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 100vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: #add1d9;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#top {
   margin-left: 55%;
 }
 h2 {
-    color: black;
-  }
-  
-.container {
-    width:100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-  }
+  color: white;
+}
+p {
+  color: gray;
+}
 
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
 
 #portfolio {
- margin-bottom: 48px;
-  
+  margin-bottom: 48px;
 }
 
 .navbar {
-    border-bottom: 0px solid white;
-
+  border-bottom: 0px solid white;
 }
 
 .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    /* content: ""; */
-    background: no-repeat center center;
-    background-size: 100% 100%;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  /* content: ""; */
+  background: no-repeat center center;
+  background-size: 100% 100%;
 }
 
-footer{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    font-size: medium;
-    border-top: 7px solid gray;
-    position: fixed;
-  }
-  .card-img{
-    padding: 10px;
-    height: 150;
-    width: 100;
-  }
-  .card-body{
-    position: relative;
-  }
-
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  font-size: medium;
+  border-top: 7px solid gray;
+  position: relative;
+}
+.card-img {
+  padding: 10px;
+  height: 150;
+  width: 100;
+}
+.card-body {
+  position: relative;
+}
