@@ -12,9 +12,12 @@ body {
   position: relative;
   font-size: 18px;
   line-height: 25px;
-  background-color: #add1d9;
+  background-color: black;
 }
-h1 {
+h1,
+h2,
+nav,
+header {
   color: white;
   text-align: center;
 }
@@ -22,11 +25,8 @@ h1 {
 #top {
   margin-left: 55%;
 }
-h2 {
-  color: white;
-}
 p {
-  color: gray;
+  color: white;
 }
 
 .container {
@@ -42,6 +42,7 @@ p {
 
 .navbar {
   border-bottom: 0px solid white;
+  min-height: 100px;
 }
 
 .navbar-toggler-icon {
@@ -92,7 +93,7 @@ button {
 a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: white;
 }
 
 button:hover,
